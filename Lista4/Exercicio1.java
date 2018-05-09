@@ -48,7 +48,7 @@ public class Exercicio1 {
             System.out.println("Aluno reprovado por frequência!");
         } else {
             
-            if (mediaAluno > mediaDeAprovacao) {
+            if (mediaAluno >= mediaDeAprovacao) {
                 
                 System.out.println("O aluno " +nome+ " foi aprovado por média, com média dê: " +mediaAluno);
             } else {
