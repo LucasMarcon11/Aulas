@@ -28,7 +28,7 @@ public class Exercicio6 {
         System.out.println("Informe o valor do 3º lado: ");
         int lado3 = sc.nextInt();
 
-        if ((lado1 + lado2) >= lado3) {
+        if ((lado1 + lado2) > lado3) {
 
             if ((lado1 == lado2) && (lado1 == lado3) && (lado2 == lado3)) {
 
